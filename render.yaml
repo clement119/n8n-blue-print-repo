@@ -52,9 +52,9 @@ services:
           name: n8n_db1_y32i
           property: user
 
-databases:
-  - name: n8n_db1_y32i
-    plan: free
+#databases:
+#  - name: n8n_db1_y32i
+#    plan: free
     # The free instance type is limited to 1 GB of disk
     # space.
     #
