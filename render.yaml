@@ -51,6 +51,13 @@ services:
         fromDatabase:
           name: n8n-db
           property: user
+      - key: N8N_HOST
+        value: 0.0.0.0
+      - key: N8N_PORT
+        value: "5432"
+      - key: WEBHOOK_URL
+        value: "https://n8n-service-bkyl.onrender.com/"        
+
 
 databases:
   - name: n8n-db
