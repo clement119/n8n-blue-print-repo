@@ -38,19 +38,19 @@ services:
       - key: DB_POSTGRESDB_DATABASE
         fromDatabase:
           name: n8n-db
-      #    property: database
+          property: database
       - key: DB_POSTGRESDB_HOST
         fromDatabase:
           name: n8n-db
-      #    property: host
+          property: host
       - key: DB_POSTGRESDB_PASSWORD
         fromDatabase:
           name: n8n-db
-      #    property: password
+          property: password
       - key: DB_POSTGRESDB_USER
         fromDatabase:
           name: n8n-db
-      #    property: user
+          property: user
 
 databases:
   - name: n8n-db
