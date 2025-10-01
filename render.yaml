@@ -51,6 +51,10 @@ services:
         fromDatabase:
           name: n8n_db
           property: user
+       - key: N8N_HOST
+        value: 0.0.0.0
+       - key: N8N_PORT
+        value: "5432"
 
 databases:
   - name: n8n_db
