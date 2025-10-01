@@ -36,19 +36,19 @@ services:
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_DATABASE
-        fromDatabase:
+        fromDatabase: n8n_db1_y32i
           name: n8n-db
           property: database
       - key: DB_POSTGRESDB_HOST
-        fromDatabase:
+        fromDatabase: dpg-d3ekpnb3fgac738a4db0-a
           name: n8n-db
           property: host
       - key: DB_POSTGRESDB_PASSWORD
-        fromDatabase:
+        fromDatabase: wOHbV9A0coDEOUbogXnJJHZ12h1QdHF6
           name: n8n-db
           property: password
       - key: DB_POSTGRESDB_USER
-        fromDatabase:
+        fromDatabase: n8n_db1_y32i_user
           name: n8n-db
           property: user
 
